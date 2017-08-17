@@ -94,3 +94,17 @@ header{
 /* Item Section */
 
 /* Footer Section */
+footer{
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.foot{
+  width: 960px;
+  color: white;
+  text-align: left;
+}
