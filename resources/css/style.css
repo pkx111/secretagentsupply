@@ -72,6 +72,24 @@ header{
 
 }
 /* Nav Bar */
+.menu{
+  display: flex;
+  background-color: firebrick;
+
+
+}
+.menu nav{
+  margin: 0.75rem auto;
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  justify-content: space-between;
+
+}
+.menu span{
+  color: white;
+  font-size: 1rem;
+}
 
 /* Item Section */
 
