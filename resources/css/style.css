@@ -5,7 +5,7 @@ body{
   font-family: Helvetica;
 
 }
-div{border: 1px solid blue;}
+/*div{border: 1px solid blue;}*/
 /* Header Section */
 header{
   display: flex;
@@ -92,7 +92,51 @@ header{
 }
 
 /* Item Section */
+.items{
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 3rem auto 4rem auto;
 
+}
+.row1, .row2{
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  border:  4px solid black;
+
+}
+.itemhold{
+
+}
+.item img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  margin: 2rem auto;
+  
+}
+
+.titletxt{
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 0.55rem 0;
+  text-align: center;
+}
+.location, .hours{
+  width: 35%;
+  padding-top: 3rem;
+
+}
 /* Footer Section */
 footer{
   height: 5rem;
